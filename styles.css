@@ -1,6 +1,6 @@
 @font-face {
 font-family: Fontin;
-src: url("../fonts/Fontin_Sans_R_45b.otf");
+src: url("fonts/Fontin_Sans_R_45b.otf");
 }
 
 body {
@@ -33,8 +33,6 @@ section {
 a.btn-block {
   margin-bottom: 1rem;
   text-decoration: none;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
 }
 
 .logo-container {
