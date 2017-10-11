@@ -1,0 +1,58 @@
+@font-face {
+font-family: Fontin;
+src: url(/fonts/Fontin_Sans_R_45b.otf);
+}
+@font-face {
+font-family: FontinBold;
+src: url(/fonts/Fontin_Sans_B_45b.otf);
+}
+
+body {
+  font-family: Fontin;
+}
+h1, h2, h3, h4, h5 {
+  color: #8f2704;
+}
+
+a {
+  color: #8f2704;
+}
+
+main a {
+  text-decoration: underline;
+}
+main a:hover {
+  color: #8f2704;
+  text-decoration: none;
+}
+
+nav {
+  margin-bottom: 2rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+a.btn-block {
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.logo-container {
+  margin-top: 20px;
+}
+.navbar-light .navbar-brand {
+  color: #8f2704;
+}
+.navbar-brand img {
+  width: 400px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 270px;
+    height: auto;
+  }
+}
